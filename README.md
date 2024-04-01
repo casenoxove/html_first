@@ -1,2 +1,2 @@
-# html_first
-240401 ~ 
+# html 시작
+* git, gitHub 개념공부
