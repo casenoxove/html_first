@@ -69,3 +69,13 @@
 * `../doll.jpg` : 사우이 폴더로 한단계 나가서 doll.jpg 파일 찾기
 * `../a/doll.jpg` : 상위 폴더로 한단계 나가고 a 폴더로 들어가서 doll.jpg 파일 찾기
 * `./b/doll/jpg` : 현재위치에서 b 폴더로 들어가 doll.jpg 파일 찾기
+## 바로가기 링크란?
+* <a href="#id"> 바로가기 링크 속성 (페이지가 없을 시에는 임시로 "#" 페이지 사용)
+* 
+## 바로가기 링크 제작 순서 및 주의사항
+* 바로가기 이름을 붙여준 뒤 태그를 사용할 때 이름 왼쪽에 #을 작성해야 적용된다.
+* 
+## 파비콘 적용 순서
+*   <link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon"> 
+    <link rel="icon" href="파비콘.ico 경로" type="image/x-icon">
+*   탭 및 작업표시줄 등에 웹을 구분 가능하게 하는 아이콘
