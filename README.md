@@ -79,3 +79,6 @@
 *   <link rel="shortcut icon" href="파비콘.ico 경로" type="image/x-icon"> 
     <link rel="icon" href="파비콘.ico 경로" type="image/x-icon">
 *   탭 및 작업표시줄 등에 웹을 구분 가능하게 하는 아이콘
+## 이미지태그 `img`
+* `img` 태그를 사용할 땐 반드시 끝에 `alt=""` 속성을 필수로 함께 작성해야 한다.
+* 이미지 사용 시 의미전달이 필요한 이미지와 아닌 이미지를 구분해서 사용해야 한다. 필요하지 않을 경우 alt는 공백으로 둔다.
