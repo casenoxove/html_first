@@ -122,3 +122,20 @@
 * gnb (global navigation bar) - nav 묶이는 대상**
 * lnb (local navigation bar)**
 * snb (side navigation bar)**
+## `ul, ol, li`
+* 순서가 중요한 2개 이상의 목록(li) 구조을 묶어주는 그룹태그
+* 목록의 순서와 연관이 있을 경우 ol 사용, 없으면 ul 사용
+* 순서가 있다는 가정하에 oi - li 반복 가능
+* 순차/비순차 목록 사용 시 다른 블록 및 인라인 태그를 사용하려면 반드시 li 안 자식위치로 배치해야한다
+* ul 또는 ol 과 li 사이에 다른 태그를 삽입하지 않도록 주의
+## `details, summary`
+* '열림' 상태일 때만 내부 정보를 보여주는 정보 공개 위젯을 생성 (요약, 더보기)
+* <details>
+    <summary>요약</summary>
+    <spam>내용</span>
+    </details>
+## ` footer, mark, main, time`
+* `footer` : 웹페이지 가장 하단에 위치하며 작성자, 저작권 정보, 관련 문서 등의 내용 등 삽입
+* `mark` : 현재 맥락에 관련이 깊거나 중요해 표시한 부분 (노란 형광펜 형태)
+* `main` :  문서 <body>의 주요 콘텐츠
+* `time` : 시간의 특정 지점 또는 구간
